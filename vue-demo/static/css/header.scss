@@ -1,0 +1,14 @@
+$color:red;
+$w_100:100%;
+$ccc:#ccc;
+.header{
+  color:$color;
+  width:$w_100;
+  background:$ccc;
+  position:fixed;
+  top:0;left:0;height:40px;
+  line-height:40px;
+
+}
+.header .header_search{width:60%;margin:0 auto;}
+.header .header_search input{border:none}
