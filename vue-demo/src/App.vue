@@ -10,11 +10,13 @@
     >
       <swipe-item v-for="i in item1" :key="i" style="">number{{ i }}</swipe-item>
     </swipe>
+    <aaa></aaa>
   </div>
 </template>
 
 <script>
   import Header from "./components/Header.vue"
+  import aaa from "./components/aaa.vue"
   export default {
     "name":"app",
     data() {
@@ -57,7 +59,8 @@
     },
     components:{
 
-      "Header":Header
+      "Header":Header,
+      "aaa":aaa
     }
   };
 </script>
