@@ -5,49 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/vue-demo/src/components/Header.vue" line="153" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3f7502c-cb01-40d6-aa4a-0261f719a94e" name="Default" comment="webstorm链接github">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/dianying.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/guanggao.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/guoqing.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/hongbao.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/jipiao.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/jiudian.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/ktv.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/kuaican.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/liren.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/maoyan.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/meishi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/mianfei.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/qinzi.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/waimai.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/xiuxian.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/youhui.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/youle.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/fenlei/zhoubian.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/000.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/common/data/goods.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/common/data/ratings.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/assets/common/data/seller.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/components/iconswipe.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/src/flexible.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vue-demo/static/css/base.css" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/vue-demo/src/components/bbb.vue" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/.babelrc" afterPath="$PROJECT_DIR$/vue-demo/.babelrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/build/webpack.base.conf.js" afterPath="$PROJECT_DIR$/vue-demo/build/webpack.base.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/build/webpack.dev.conf.js" afterPath="$PROJECT_DIR$/vue-demo/build/webpack.dev.conf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/config/index.js" afterPath="$PROJECT_DIR$/vue-demo/config/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/index.html" afterPath="$PROJECT_DIR$/vue-demo/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/package.json" afterPath="$PROJECT_DIR$/vue-demo/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/src/App.vue" afterPath="$PROJECT_DIR$/vue-demo/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/src/components/Header.vue" afterPath="$PROJECT_DIR$/vue-demo/src/components/Header.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/src/components/aaa.vue" afterPath="$PROJECT_DIR$/vue-demo/src/components/aaa.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/src/components/swipe.vue" afterPath="$PROJECT_DIR$/vue-demo/src/components/swipe.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/src/main.js" afterPath="$PROJECT_DIR$/vue-demo/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/src/router/index.js" afterPath="$PROJECT_DIR$/vue-demo/src/router/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/static/css/header.scss" afterPath="$PROJECT_DIR$/vue-demo/static/css/header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vue-demo/static/css/swipe.css" afterPath="$PROJECT_DIR$/vue-demo/static/css/swipe.css" />
-    </list>
+    <list default="true" id="c3f7502c-cb01-40d6-aa4a-0261f719a94e" name="Default" comment="webstorm链接github" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -392,12 +350,12 @@
       <workItem from="1536022346882" duration="18323000" />
       <workItem from="1536108979736" duration="19391000" />
       <workItem from="1536195332451" duration="5161000" />
-      <workItem from="1536281975550" duration="1036000" />
+      <workItem from="1536281975550" duration="1437000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="419175000" />
+    <option name="totallyTimeSpent" value="419576000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-55" y="296" width="1940" height="905" extended-state="1" />
