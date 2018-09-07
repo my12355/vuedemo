@@ -13,7 +13,7 @@
     </div>
     <div v-if="pagination" class="c-swipe-pagination">
       <div class="c-swipe-pagination-bar">
-        <i v-for="item in length" :class="['c-swipe-pagination-item', item - 1 === insideValue ? 'active': '']" :key="item"></i>
+        <i v-for="item in length" :class="['c-swipe-pagination-item', item - 1 === insideValue ? 'active': '']" :key="item" :index="item.index"></i>
       </div>
     </div>
   </div>
@@ -27,6 +27,7 @@
       return {
         hasMounted: false,
         insideValue: this.value,
+        currentNum:this.value+1,
         pages: [],  // cards dom list
         width: 0,
         length: 0,
@@ -143,6 +144,7 @@
 
       value(val) {
         this.insideValue = val;
+        this.currentNum=val+1
       },
 
       autoplayTime() {
@@ -466,7 +468,7 @@
         }
 
         // 如果不延迟 40 ms 的话，在 setTranslate 的时候，就会触发 transition 效果，这是不想要的。
-        setTimeout(() => {
+        setTimeout(()=>{
           this.insideValue = this.insideValue < this.length - 1
           ? this.insideValue + 1
           : 0;
@@ -549,31 +551,32 @@
   }
 
   .c-swipe-pagination{
-    position: relative;
-    height: 0;
+    position: absolute;
+    width:100px;height:100px;
+    bottom: 300px;
+    right: 0;
   }
 
   .c-swipe-pagination-bar{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -12px;
-    bottom: 0;
-    height: 4px;
+
+
 
     display: flex;
     justify-content: center;
     align-items: flex-start;
+
   }
 
   .c-swipe-pagination-item{
     display: block;
     width: 8px;
     height: 4px;
-    border-radius: 3px;
+    border-radius:50%;
     background-color: rgb(181,181,181);
     margin: 0 3px;
     transition: all .1s;
+
+    line-height:100px;
   }
 
   .c-swipe-pagination-item.active{

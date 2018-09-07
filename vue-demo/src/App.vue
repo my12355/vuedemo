@@ -1,79 +1,50 @@
 <template>
   <div id="app">
+    <router-view></router-view>
+    <home></home>
 
-    <Header></Header>
-    <swipe
-      class="slide"
-      v-model="index1"
-      :autoplayTime="4000"
-      :speed="300"
-    >
-      <swipe-item v-for="i in item1" :key="i" style="">number{{ i }}</swipe-item>
-    </swipe>
-    <aaa></aaa>
   </div>
 </template>
 
 <script>
-  import Header from "./components/Header.vue"
-  import aaa from "./components/aaa.vue"
+
+  import Home from "./components/home.vue";
+  import Form_1 from "./components/form_1.vue";
+//  import good_detail from "./components/good_detail.vue";
+
+
   export default {
-    "name":"app",
-    data() {
-      return {
-        index1: 0,
-        item1: 6,
-
-        itemCommon: 6,
-        indexLoop: 0,
-        indexNoLoop: 0,
-        index3: 0,
-        index4: 0,
-
-        isLoop: true,
-        autoplay: 0,
-        pagination: true,
-
-        itemAsync: 6,
-        index5: 0,
-      };
+     name: "app",
+     components: {
+     "home": Home,
+       Form_1,
+//       good_detail
     },
 
-    mounted() {
-      // 该轮播组件也支持异步渲染
-      setTimeout(() => {
-        this.item = 10;
-    }, 6000);
+    methods:{
+
+
+    },
+    created() {
+
     },
 
-    methods: {
-      decreaseHandler() {
-        this.itemAsync = this.itemAsync > 1 ? this.itemAsync - 1 : 1;
-        // 避免删除卡片后，镜头落在轮播图外
-        this.index5 = this.index5 >= this.itemAsync ? this.itemAsync - 1 : this.index5;
-        // 删除卡片后，需要在 $nextTick 下手动调用 组件下的 reset 方法
-        this.$nextTick(() => {
-          this.$refs.swipeAsync.reset();
-      });
-      },
-    },
-    components:{
 
-      "Header":Header,
-      "aaa":aaa
-    }
   };
 </script>
 
-<style>
+<style scoped lang="stylus" rel="stylesheet/stylus">
 
-  @import "../static/css/swipe.css";
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  @import "../static/css/font-awesome.css";
+
+
+  #app {
+    font-family:'Avenir', Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-align:center;
+    color:#2c3e50;
+    margin-top:60px;
+  }
+  body{margin:0;}
 </style>

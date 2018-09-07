@@ -1,6 +1,7 @@
 $color:red;
 $w_100:100%;
 $ccc:#ccc;
+
 .header{
   color:$color;
   width:$w_100;
@@ -8,6 +9,7 @@ $ccc:#ccc;
   position:fixed;
   top:0;left:0;height:40px;
   line-height:40px;
+  z-index:100;
 
 }
 .header .header_search{width:60%;margin:0 auto;}
