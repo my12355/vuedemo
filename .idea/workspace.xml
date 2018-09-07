@@ -5,9 +5,7 @@
     <bookmark url="file://$PROJECT_DIR$/vue-demo/src/components/Header.vue" line="153" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c3f7502c-cb01-40d6-aa4a-0261f719a94e" name="Default" comment="webstorm链接github">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="c3f7502c-cb01-40d6-aa4a-0261f719a94e" name="Default" comment="webstorm链接github" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -207,8 +205,8 @@
     <handled-path value="$PROJECT_DIR$/vue-demo/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="96" />
-    <option name="y" value="265" />
+    <option name="x" value="297" />
+    <option name="y" value="262" />
     <option name="width" value="1940" />
     <option name="height" value="905" />
   </component>
@@ -258,13 +256,6 @@
               <item name="vuedemo" type="462c0819:PsiDirectoryNode" />
               <item name="vue-demo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vuedemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vuedemo" type="462c0819:PsiDirectoryNode" />
-              <item name="vue-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -352,18 +343,18 @@
       <workItem from="1536022346882" duration="18323000" />
       <workItem from="1536108979736" duration="19391000" />
       <workItem from="1536195332451" duration="5161000" />
-      <workItem from="1536281975550" duration="2088000" />
+      <workItem from="1536281975550" duration="2687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="420227000" />
+    <option name="totallyTimeSpent" value="420826000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="96" y="265" width="1940" height="905" extended-state="0" />
+    <frame x="297" y="262" width="1940" height="905" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2108307" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2108307" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
